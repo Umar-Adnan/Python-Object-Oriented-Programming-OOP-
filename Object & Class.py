@@ -1,17 +1,14 @@
 class Student:
-    def __init__(self):  #constructor
+    def __init__(self):  #default constructor
         self.name = ""  #instance variable
         self.age = 0    #instance variable
         print("Student object created")  #message to indicate that the object has been created
 
-    def initialize(self, n, a):  #constructor
-        self.name = n  #instance variable
-        self.age = a    #instance variable
     def display(self):  #method to display the values of the instance variables
         print("Name: ", self.name)  #printing the value of the instance variable 'name'
         print("Age: ", self.age)    #printing the value of the instance variable 'age'
 
-s1=Student() # This line creates an instance of the Student class with the name "John" and age 20
+s1=Student() # This line creates an instance of the Student class
 s1.name=input("Enter the name of the student: ")  #Assigning value to the instance variable 'name' of the object 's1'
 s1.age=int(input("Enter the age of the student: "))  #Assigning value to the instance variable 'age' of the object 's1'
 
