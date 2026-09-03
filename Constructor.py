@@ -10,3 +10,4 @@ class Student:
         print(f"\tStudent object s1 with name: {self.name}\n\tand age: {self.age} is created")  #message to indicate that the object has been created
 
 s1=Student() # This line creates an instance of the Student class
+s2=Student() # This line creates another instance of the Student class
